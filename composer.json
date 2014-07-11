@@ -1,5 +1,5 @@
 {
-  "name": "tetsuwo/VoiceTextAPI",
+  "name": "tetsuwo/voice-text-api",
   "description": "for VoiceText Web API",
   "keywords": ["voice", "api", "VoiceText", "tts", "text", "speech"],
   "homepage": "https://github.com/tetsuwo/VoiceTextAPI",
@@ -13,11 +13,11 @@
   ],
   "autoload": {
     "psr-0": {
-      "VoiceText": "src"
+      "VoiceText\\API\\": "src/"
     }
   },
   "require": {
-    "php": ">=5.4.0",
+    "php": ">=5.3.3",
     "ext-curl": "*"
   }
 }
