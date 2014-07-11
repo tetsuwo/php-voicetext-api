@@ -26,7 +26,7 @@ class RequestHandler
 
     public function request($method, $path, $options)
     {
-        $options = $options ?: [];
+        $options = $options ?: array();
 
         $request_url = self::BASE_URL . $path;
         $auth_string = sprintf('%s:%s', $this->apiKey, $this->apiPassword);
@@ -56,13 +56,13 @@ class RequestHandler
             $status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
             if ($status_code !== 200)
             {
-                throw new Exception(sprintf(
+                throw new \Exception(sprintf(
                     'HTTP Status Code: %s', $status_code));
             }
 
             if (curl_errno($ch))
             {
-                throw new Exception(sprintf(
+                throw new \Exception(sprintf(
                     'cURL Error: No.%s - %s', curl_errno($ch), curl_error($ch)));
             }
 
@@ -70,7 +70,7 @@ class RequestHandler
 
             return $response;
         }
-        catch (Exception $e)
+        catch (\Exception $e)
         {
             throw $e;
         }

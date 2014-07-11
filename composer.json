@@ -1,0 +1,23 @@
+{
+  "name": "tetsuwo/VoiceTextAPI",
+  "description": "for VoiceText Web API",
+  "keywords": ["voice", "api", "VoiceText", "tts", "text", "speech"],
+  "homepage": "https://github.com/tetsuwo/VoiceTextAPI",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tetsuwo OISHI",
+      "email": "tetsuwo.oishi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "VoiceText": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*"
+  }
+}
