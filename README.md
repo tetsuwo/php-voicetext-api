@@ -7,9 +7,9 @@ The unofficial PHP client for the [VoiceText Web API](https://cloud.voicetext.jp
 Installation
 ------------
 
-1. Install [Composer](https://getcomposer.org/).
+Install [Composer](https://getcomposer.org/).
 
-2. Add below in `require` property on `composer.json`.
+Add below in `require` property on `composer.json`.
 
     {
         "require": {
@@ -17,7 +17,7 @@ Installation
         }
     }
 
-3. Execute below command.
+Execute below command.
 
     $ php composer.phar install
 
