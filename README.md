@@ -42,7 +42,7 @@ And there are binary data of **WAV** format in `$response`.
 
 Return data string for WAV format
 
-    echo 'data:audio/wav;base64,' . base64_encode($response);
+    echo 'data:audio/wav;base64,', base64_encode($response);
 
 Excute JavaScript code below to play.
 
