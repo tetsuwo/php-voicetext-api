@@ -51,3 +51,10 @@ Excute JavaScript code below to play.
 
 
 See [official website](https://cloud.voicetext.jp/webapi) more details.
+
+
+ETC.
+----
+
+- [Packagist](https://packagist.org/packages/tetsuwo/voice-text-api)
+
