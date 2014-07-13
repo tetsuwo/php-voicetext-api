@@ -11,7 +11,7 @@ class RequestHandlerTest extends \PHPUnit_Framework_TestCase
     public function testSetApiKey()
     {
         $requestHandler = new VoiceText\API\RequestHandler();
-        $requestHandler->setApiKey('API_TOKEN');
-        $this->assertAttributeEquals('API_TOKEN', 'apiKey', $requestHandler);
+        $requestHandler->setApiKey('API_KEY');
+        $this->assertAttributeEquals('API_KEY', 'apiKey', $requestHandler);
     }
 }
