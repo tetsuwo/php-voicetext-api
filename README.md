@@ -32,10 +32,22 @@ At first, set up client.
 
 ### Method of Speech synthesis (Text-to-speech)
 
+Execute PHP code below to get the Speech synthesis data of specified text.  
+And there are binary data of **WAV** format in `$response`.
 
-    $client->getTts(array(
+    $response = $client->getTts(array(
         'text'    => 'こんばんは、モヤモヤさ◯ぁ～ずです。',
         'speaker' => show'
     ));
+
+Return data string for WAV format
+
+    echo 'data:audio/wav;base64,' . base64_encode($response);
+
+Excute JavaScript code below to play.
+
+    var audio = new Audio('data:audio/wav;base64,~~~~~~~~~~~');
+    audio.play();
+
 
 See [official website](https://cloud.voicetext.jp/webapi) more details.
