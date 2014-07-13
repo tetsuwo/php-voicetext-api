@@ -1,6 +1,8 @@
 VoiceTextAPI
 ============
 
+[![Build Status](https://secure.travis-ci.org/tetsuwo/VoiceTextAPI.png)](http://travis-ci.org/tetsuwo/VoiceTextAPI)
+
 The unofficial PHP client for the [VoiceText Web API](https://cloud.voicetext.jp/webapi).
 
 
