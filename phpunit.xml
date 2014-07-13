@@ -1,0 +1,17 @@
+<phpunit 
+    bootstrap="test/bootstrap.php" 
+    colors="true">
+    <testsuites>
+        <testsuite name="VoiceTextAPI PHP Client - Test Suite">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./coverage" highlight="true"/>
+    </logging>
+</phpunit>
