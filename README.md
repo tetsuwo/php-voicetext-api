@@ -6,6 +6,12 @@ VoiceTextAPI
 The unofficial PHP client for the [VoiceText Web API](https://cloud.voicetext.jp/webapi).
 
 
+Demonstration
+-------------
+
+- [API Explorer](http:://voice-text-api-explorer.herokuapp.com)
+
+
 Installation
 ------------
 
