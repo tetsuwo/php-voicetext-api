@@ -21,7 +21,7 @@ Add below in `require` property on `composer.json`.
 
     {
         "require": {
-            "tetsuwo/voice-text-api": "dev-master"
+            "tetsuwo/voicetext-api": "dev-master"
         }
     }
 
@@ -35,7 +35,7 @@ Usage
 
 At first, set up client.
 
-    $client = new VoiceText\API\Client('{API_KEY}', '{API_PASSWORD}');
+    $client = new Tetsuwo\VoiceText\API\Client('{API_KEY}', '{API_PASSWORD}');
 
 
 ### Method of Speech synthesis (Text-to-speech)
