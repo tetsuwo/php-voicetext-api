@@ -1,8 +1,8 @@
 {
-  "name": "tetsuwo/voice-text-api",
+  "name": "tetsuwo/voicetext-api",
   "description": "for VoiceText Web API",
   "keywords": ["voice", "api", "VoiceText", "tts", "text", "speech"],
-  "homepage": "https://github.com/tetsuwo/VoiceTextAPI",
+  "homepage": "https://github.com/tetsuwo/php-voicetext-api",
   "version": "0.0.1",
   "license": "MIT",
   "authors": [
@@ -13,7 +13,7 @@
   ],
   "autoload": {
     "psr-0": {
-      "VoiceText\\API\\": "src/"
+      "Tetsuwo\\VoiceText\\API\\": "src/"
     }
   },
   "require": {

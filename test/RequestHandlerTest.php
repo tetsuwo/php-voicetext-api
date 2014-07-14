@@ -4,13 +4,13 @@ class RequestHandlerTest extends \PHPUnit_Framework_TestCase
 {
     public function testConstructor()
     {
-        $requestHandler = new VoiceText\API\RequestHandler();
-        $this->assertInstanceOf('VoiceText\API\RequestHandler', $requestHandler);
+        $requestHandler = new Tetsuwo\VoiceText\API\RequestHandler();
+        $this->assertInstanceOf('Tetsuwo\VoiceText\API\RequestHandler', $requestHandler);
     }
 
     public function testSetApiKey()
     {
-        $requestHandler = new VoiceText\API\RequestHandler();
+        $requestHandler = new Tetsuwo\VoiceText\API\RequestHandler();
         $requestHandler->setApiKey('API_KEY');
         $this->assertAttributeEquals('API_KEY', 'apiKey', $requestHandler);
     }

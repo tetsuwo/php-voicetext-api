@@ -1,6 +1,6 @@
 <?php
 
-namespace VoiceText\API;
+namespace Tetsuwo\VoiceText\API;
 
 
 class RequestException extends \Exception
