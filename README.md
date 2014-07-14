@@ -1,7 +1,7 @@
 VoiceTextAPI
 ============
 
-[![Build Status](https://secure.travis-ci.org/tetsuwo/VoiceTextAPI.png)](http://travis-ci.org/tetsuwo/VoiceTextAPI)
+[![Build Status](https://secure.travis-ci.org/tetsuwo/php-voicetext-api.png)](http://travis-ci.org/tetsuwo/php-voicetext-api)
 
 The unofficial PHP client for the [VoiceText Web API](https://cloud.voicetext.jp/webapi).
 
@@ -61,8 +61,14 @@ Excute JavaScript code below to play.
 See [official website](https://cloud.voicetext.jp/webapi) more details.
 
 
-ETC.
-----
+LICENSE
+-------
+
+This software is released under the MIT License, see LICENSE.
+
+
+SEE ALSO
+--------
 
 - [Packagist](https://packagist.org/packages/tetsuwo/voice-text-api)
 
