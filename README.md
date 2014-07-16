@@ -70,5 +70,5 @@ This software is released under the MIT License, see LICENSE.
 SEE ALSO
 --------
 
-- [Packagist](https://packagist.org/packages/tetsuwo/voice-text-api)
+- [Packagist](https://packagist.org/packages/tetsuwo/voicetext-api)
 
