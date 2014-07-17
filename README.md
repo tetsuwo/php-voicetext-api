@@ -9,7 +9,7 @@ The unofficial PHP client for the [VoiceText Web API](https://cloud.voicetext.jp
 Demonstration
 -------------
 
-- [API Explorer](http:://voice-text-api-explorer.herokuapp.com)
+- [API Explorer](http://voice-text-api-explorer.herokuapp.com/)
 
 
 Installation
