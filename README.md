@@ -2,6 +2,10 @@ VoiceTextAPI
 ============
 
 [![Build Status](https://secure.travis-ci.org/tetsuwo/php-voicetext-api.png)](http://travis-ci.org/tetsuwo/php-voicetext-api)
+[![Latest Stable Version](https://poser.pugx.org/tetsuwo/voicetext-api/v/stable.svg)](https://packagist.org/packages/tetsuwo/voicetext-api)
+[![Total Downloads](https://poser.pugx.org/tetsuwo/voicetext-api/downloads.svg)](https://packagist.org/packages/tetsuwo/voicetext-api)
+[![Latest Unstable Version](https://poser.pugx.org/tetsuwo/voicetext-api/v/unstable.svg)](https://packagist.org/packages/tetsuwo/voicetext-api)
+[![License](https://poser.pugx.org/tetsuwo/voicetext-api/license.svg)](https://packagist.org/packages/tetsuwo/voicetext-api)
 
 The unofficial PHP client for the [VoiceText Web API](https://cloud.voicetext.jp/webapi).
 
