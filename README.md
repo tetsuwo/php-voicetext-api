@@ -52,11 +52,11 @@ And there are binary data of **WAV** format in `$response`.
         'speaker' => show'
     ));
 
-Return data string for WAV format
+Returns the data string for WAV format.
 
     echo 'data:audio/wav;base64,', base64_encode($response);
 
-Excute JavaScript code below to play.
+Execute the JavaScript code below to play.
 
     var audio = new Audio('data:audio/wav;base64,~~~~~~~~~~~');
     audio.play();
